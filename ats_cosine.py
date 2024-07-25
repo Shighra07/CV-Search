@@ -40,7 +40,7 @@ def extract_text(file):
     else:
       return ""
 
-st.title('Resume Matcher')
+st.title('Resume Tracker')
 
 job_description = st.text_area('Enter Job Description')
 uploaded_resumes = st.file_uploader('Upload Resumes (PDF, DOCX, TXT)',type=['pdf','docx','txt'],accept_multiple_files=True) #upload multiple files
